@@ -9,7 +9,10 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
-
+#use Json Web Token for token based authentification
+gem 'jwt'
+#use ActiveModel has_secure_password
+gem 'bcrypt', '~> 3.1.7'
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 

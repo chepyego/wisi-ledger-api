@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :users
+  post '/auth/login', to: 'authentification#login'
+
   resources :sales
   resources :consultants
   
